@@ -4,6 +4,7 @@
 * License: Public Domain
 */
 
+//Define Variables
 var myTransport = ["bike" , "walking" , "bus" , "carpool"];
 
 var myMainRide = {
