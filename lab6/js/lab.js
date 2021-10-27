@@ -8,9 +8,9 @@
 var myTransport = ["bike" , "walking" , "bus" , "carpool"];
 
 var myMainRide = {
-  myMainRide.name: "bus";
-  myMainRide.color: "blue";
-  myMainRide.size;"double wide"
+  name: "bus",
+  color: "blue",
+  make: "double wide",
 };
 
 //output
