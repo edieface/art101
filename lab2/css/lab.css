@@ -1,5 +1,8 @@
+body  {
+  background-color: pink;
+}
 h1 {
-  color: pink;
+  color: #DB0021;
   font-size: 200%;
 }
 
@@ -11,7 +14,7 @@ p {
 
 #content {
   background-color: #DFFD27;
-  width: 500px;
+  width: 50%;
   min-height: 300px;
   padding: 10px;
   margin: 10px;
