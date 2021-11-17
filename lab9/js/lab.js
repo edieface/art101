@@ -4,10 +4,12 @@
 * License: Public Domain
 */
 
-getElementById()
-var=outputEI
+{getElementById()
+  var=outputEI;
 
-document.createElement("p")=new1EI
+
+  document.createElement("outputEI").innerhtml="hello world";
+}
 
 //test function
 getElementByNum()
