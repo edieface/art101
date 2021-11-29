@@ -5,34 +5,32 @@
 */
 
 
-function sortingHat (str) {
+function sortingHat(str) {
   len = str.length;
-  mod = len % 4;
-
-  if (mod == 0)
+  mod = length % 4;
+  if (mod == 0) {
     return "Apple"
-
     }
-
-  elseif (mod == 1)
-    return "Banana" ;
-
-  elseif (mod == 2)
+  else if (mod == 1) {
+    return "Banana"
+    }
+  else if (mod == 2) {
     return "Kiwi" ;
-
-
-  elseif (mod == 3)
-    return "Guava" ;
-
-
-
+    }
+  else if (mod == 3) {
+    return "Guava"
+    }
 }
 
-var myButton = document.getElementByID ("button");
-  myButton.addEventListener ("click", function() {
-    var name = document.getElementByID ("input").value;
-    var house = sortingHat (name);
-    newText = " <p> The Sorting Hat has named you + "house" + " </p "
-    document.getElementByID ("output").innerHTML = newText;
+var myButton = document.getElementByID("button");
+myButton.addEventListener("click", function() {
+    var name = document.getElementByID("input").value;
+    var house = sortingHat(name);
+    var newText = "<p> The Sorting Hat has named you " + house + "</p>";
+    document.getElementByID("output").innerHTML = newText;
 
-  }}
+  });
+
+  /*
+  Console is giving me an error on line 25. Does not like: "document.getElementByID is not a function" 
+  */
